@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Card from "../components/Cards";
+import Landing from "../components/Landing";
 import Skills from "../components/Skills";
 import Nav from "../components/Nav";
+import Projects from "../components/Projects";
 // import VectorBackground from "../components/VectorBackground";
 
 class Portfolio extends Component {
@@ -10,10 +12,8 @@ class Portfolio extends Component {
       <div>
         <Nav/>
         {/* <VectorBackground /> */}
-        <div className="landing">
-        <h1 className="text-center pt-5">Hello! My name is Jennifer Powell. Welcome to my portfolio page. </h1>
-        <h1 className="text-center">Full Stack Web Developer</h1>
-        <div className="container">
+       <Landing/>
+        {/* <div className="container">
           <div className="wrap">
             <div className="cube">
               <div className="front">front</div>
@@ -24,14 +24,10 @@ class Portfolio extends Component {
               <div className="right">right</div>
             </div>
           </div>
-        </div>
-        </div>
-       
-        <div className="skillsContainer"></div>
-
-      
+        </div> */}
+        
         <Skills />
-
+        <Projects />
       </div>   
       );
     }

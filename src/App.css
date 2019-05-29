@@ -89,12 +89,6 @@
 	animation: spin 5s infinite linear;
 }
  
-
-.landing {
-  background-image: url("https://images.unsplash.com/photo-1482828091712-bf720a2568ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-  height: 100vh;
-} 
-
 canvas {
   position: absolute;
   top: 0;
@@ -105,11 +99,30 @@ canvas {
 h1 {
   color: white;
   margin:auto;
-  font-family: 'Advent Pro', sans-serif;
 }
 .skills {
   display: flex;
   margin-top: 100px;
   flex-wrap: wrap;
   width: 100px;
+}
+h1, h2, h3, h4, p, a {
+font-family: 'Advent Pro', sans-serif;
+}
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

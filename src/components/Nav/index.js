@@ -40,7 +40,8 @@ function Nav() {
 			</div>
 			<div class="mx-auto my-2 order-0 order-md-1 position-relative">
 				<a class="mx-auto" href="#">
-					<img src="//placehold.it/120/ccff00" class="rounded-circle" />
+					<div><img src="https://blogmedia.dealerfire.com/wp-content/uploads/sites/451/2016/12/Lime-Green-Circle_df.jpg" class="rounded-circle greendot" />
+					<p>JP</p></div>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
 					<span class="navbar-toggler-icon"></span>

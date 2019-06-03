@@ -11,3 +11,10 @@
 .navbar-group-right {
     justify-content: flex-end;
 }
+.navbar {
+    height: 60px;
+}
+.greendot{
+    width: 150px;
+    z-index: 1;
+}

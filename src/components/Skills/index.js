@@ -14,7 +14,7 @@ const skills = [
 	{ skill: 'Bootstrap', icon: 'fab fa-bootstrap' },
 	{ skill: 'MongoDB', img: 'https://img.icons8.com/color/420/mongodb.png' },
 	{ skill: 'Mongoose', img: 'http://mongodb-tools.com/img/mongoose.png' },
-	{ skill: 'Express', img: 'https://www.sohamkamani.com/static/express-routing-logo-65137ed3c844d05124dcfdab28263c21-ec9c1.png' },
+	{ skill: 'Express', img: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjEyvXftO7jAhWKCXwKHYWQCewQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.sohamkamani.com%2Fblog%2F2018%2F05%2F30%2Funderstanding-how-expressjs-works%2F&psig=AOvVaw21JCA0Kq2b0qW_hPM3TPoG&ust=1565186633741046' },
 	{ skill: 'MySQL', img: 'https://cdn.iconscout.com/icon/free/png-256/mysql-20-1174940.png' },
 	{ skill: 'Sequalize', img: 'http://docs.sequelizejs.com/image/brand_logo.png' },
 	{ skill: 'Node', icon: 'fab fa-node' },
@@ -32,7 +32,7 @@ class Skills extends React.Component {
 	render() {
 		return (
 			<div className="skillsSection">
-				<h1 className="text-center pt-2">Technical Skills</h1>
+				<h1 className="text-center pt-5">Technical Skills</h1>
 				<div className="container skillExample ">
 					{skills.map((a, i) =>
 						<div className="flip-container" ontouchstart="this.classList.toggle('hover');">

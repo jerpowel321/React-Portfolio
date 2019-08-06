@@ -106,9 +106,12 @@ h1 {
   flex-wrap: wrap;
   width: 100px;
 }
-h1, h2, h3, h4, p, a {
-font-family: 'Advent Pro', sans-serif;
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Open Sans', sans-serif;
 }
+/* h1{
+  color: #DCC7AA;
+} */
 
 /* Grow */
 .hvr-grow {
@@ -125,4 +128,12 @@ font-family: 'Advent Pro', sans-serif;
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+.landing{
+  background-color: #687A8F;
+  height: 100vh;
+}
+.project{
+  height: 500px;
+  width: 325px;
 }

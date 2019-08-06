@@ -1,19 +1,40 @@
 .portfolioSection {
     padding-top: 20px;
-    background: darkslategray;
+    background: #DCC7AA;
 }
 .project {
-    background-color: black;
-    width: 400px;
-    height: 400px; 
-    margin-top: 20px;
+    background-color: white;
+    width: 325px;
+    height: 500px; 
+    margin-bottom: 40px;
     color: white;
-    border-radius: 20px;
-}
-.portfolioSection img {
-    width: 100%;
-    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 1.5px rgba(0,0,0,0.2);
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
     overflow: hidden;
+}
+.projectBody {
+  width: 100%;
+  display: block;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.projectImg {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  transition: 0.4s ease-in;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project p {
+  padding-top: 0;
 }
 
 .scrollbar-night-fade::-webkit-scrollbar-track {
@@ -75,3 +96,18 @@
     transform: translateY(5px);
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
   }
+
+  *{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#gradient {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: #086788 #DCC7AA transparent transparent;
+  transform: scale(1.0001);
+}

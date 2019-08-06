@@ -5,7 +5,7 @@ import React from "react";
 function Card(props) {
 	return (
 		<div>
-			<div className="card w-25 border-dark" >
+			<div className="card project border-dark" >
 			<div className="text-center">
 				<img className={`${props.imageClass} card-img-top `} src={props.image}/>
 				</div>	

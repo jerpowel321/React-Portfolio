@@ -111,3 +111,11 @@
   border-color: #086788 #DCC7AA transparent transparent;
   transform: scale(1.0001);
 }
+.project .icon {
+  color: #086788;
+}
+.project .icon:hover {
+  border-radius: 20px;
+ padding: 5px;
+  background-color: rgb(243, 241, 241);
+}

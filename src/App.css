@@ -130,10 +130,17 @@ h1, h2, h3, h4, h5, h6, p, a {
   transform: scale(1.1);
 }
 .landing{
-  background-color: #687A8F;
+  background-image:url("/images/clifs.jpg");
   height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .project{
   height: 500px;
   width: 325px;
+}
+.landing h1 {
+  font-size: 50px;
+  
 }

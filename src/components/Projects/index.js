@@ -27,7 +27,7 @@ class Projects extends React.Component {
 				<h1 className="text-center pt-5">Portfolio</h1>
 				<div className=" projectExample container">
 					{projects.map((a, i) =>
-						<div class="project " style={{ border: '5px solid colors[i]' }}>
+						<div className="project " style={{ border: '5px solid colors[i]' }}>
 							{/* <i style={{ color: colors[i] }} class={a.icon}></i>
 							<div className="img_containter">
 								<img src={a.img} />
@@ -42,8 +42,9 @@ class Projects extends React.Component {
 							</p>
 							</button>
 							<p className="text-center pt-2">
-								<a  key={i} href={a.GitHub} target="_blank"><i class="fab fa-github fa-2x pr-2"></i></a>
-								<a  key={i} href={a.Deployed} target="_blank"><i class="fas fa-rocket fa-2x"></i></a>
+								<a  key={i} href={a.GitHub} target="_blank"><i className="fab fa-github fa-2x icon"></i></a>
+								<a  key={i} href={a.Deployed} target="_blank"><i className="fas fa-rocket fa-2x ml-2 icon"></i></a>
+								
 							</p>
 							
 						</div>

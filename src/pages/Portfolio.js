@@ -4,6 +4,7 @@ import Landing from "../components/Landing";
 import Skills from "../components/Skills";
 import Nav from "../components/Nav";
 import Projects from "../components/Projects";
+
 // import VectorBackground from "../components/VectorBackground";
 import ScrollingColorBackground from "react-scrolling-color-background";
 class Portfolio extends Component {

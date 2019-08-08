@@ -29,7 +29,9 @@ function Nav() {
         <li class="nav-item">
           <a class="nav-link text-right" href="#contactPage">Contact</a>
         </li>
-      </ul>
+		<a href="https://github.com/jerpowel321?tab=repositories" target="_blank"><i className="fab fa-github fa-2x icon"></i></a>
+		<a href="https://www.linkedin.com/in/jenniferrpowell/" target="_blank"><i class="fab fa-linkedin fa-2x ml-2"></i></a>
+	  </ul>
     </div>
     </div>
   </nav>

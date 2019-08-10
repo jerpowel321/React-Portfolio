@@ -103,19 +103,15 @@
   margin: 0;
 }
 
-#gradient {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 90px 100vw 0 0;
-  border-color: #086788 #DCC7AA transparent transparent;
-  transform: scale(1.0001);
+.img-hover-zoom {
+  height: 200px; 
+  overflow: hidden; 
 }
-.project .icon {
-  color: #086788;
+
+.img-hover-zoom img {
+  transition: transform .7s ease;
 }
-.project .icon:hover {
-  border-radius: 20px;
- padding: 5px;
-  background-color: rgb(243, 241, 241);
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
 }

@@ -1,37 +1,43 @@
-.navbar-group {
-    display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-.navbar-group.logo-container {
-    flex-grow: 0;
-}
-
-.navbar-group-right {
-    justify-content: flex-end;
-}
 .navbar {
-    height: 60px;
-}
-.greendot{
-    width: 150px;
-    z-index: 1;
-}
-.tan {
-    background-color: #DCC7AA;
+    height: 70px;
 }
 .blue {
     background-color: #086788;
-    color: white;
   }
 .blue a {
     color: white;
 }
-.navbar-default{
+.navbar {
+    border-bottom: 2px solid #F7882F;
+}
+/* .navbar-default{
     transition:500ms ease;
     background:transparent;
   }
-  .navbar-default.scrolled{
+.navbar-default.scrolled{
     background:#000;
-  }
+} */
+.initals {
+    color:#F7882F;
+    font-size: 40px;
+    font-family: 'Merienda One', cursive;
+    border: 3px solid #F7882F;
+    padding: 10px 15px 10px 15px;
+    background-color:#086788;
+    margin-top: 22px;
+}
+
+.project .icon {
+    color: #086788;
+    border-radius: 20px;
+}
+.navbar i:hover, .navbar a:hover {
+    color: #DCC7AA;
+}
+  
+.navbar i {
+  color: #F7882F
+}
+.navbar i:active, .navbar a:active{
+    color: #6B7A8F
+}

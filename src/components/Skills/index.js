@@ -14,15 +14,15 @@ const skills = [
 	{ skill: 'Bootstrap', icon: 'fab fa-bootstrap' },
 	{ skill: 'MongoDB', img: 'https://img.icons8.com/color/420/mongodb.png' },
 	{ skill: 'Mongoose', img: 'http://mongodb-tools.com/img/mongoose.png' },
-	{ skill: 'Express', img: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjEyvXftO7jAhWKCXwKHYWQCewQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.sohamkamani.com%2Fblog%2F2018%2F05%2F30%2Funderstanding-how-expressjs-works%2F&psig=AOvVaw21JCA0Kq2b0qW_hPM3TPoG&ust=1565186633741046' },
+	{ skill: 'Express', img: 'https://cdn-images-1.medium.com/max/800/1*j8DELPVuI_w8045sxmHQsA.png' },
 	{ skill: 'MySQL', img: 'https://cdn.iconscout.com/icon/free/png-256/mysql-20-1174940.png' },
 	{ skill: 'Sequalize', img: 'http://docs.sequelizejs.com/image/brand_logo.png' },
 	{ skill: 'Node', icon: 'fab fa-node' },
 	{ skill: 'Firebase', img: 'https://img.icons8.com/color/420/firebase.png' },
-	{ skill: 'Handlebars', img: 'https://ui-ex.com/images/mustache-vector-1.png' },
-	{ skill: 'JSON', img: 'https://static.thenounproject.com/png/446959-200.png' },
+	{ skill: 'Handlebars', img: 'https://cdn.iconscout.com/icon/free/png-512/handlebars-1-285290.png' },
+	{ skill: 'JSON', img: '/images/json.png' },
 	{ skill: 'MERN', img: 'https://geeksperhour.com/wp-content/uploads/2019/02/mern-img.png	' },
-	{ skill: 'Git', img: 'https://png.pngtree.com/svg/20160624/c79721329d.svg' },
+	{ skill: 'Git', icon: 'fas fa-code-branch' },
 	{ skill: 'Github', icon: 'fab fa-github' },
 ];
 
@@ -46,7 +46,7 @@ class Skills extends React.Component {
 									</div>
 								</div>
 								<div className="back" style={{ backgroundColor: colors[i] }}>
-									<p className=" pt-5 text-center text-white" key={i}>{a.skill}</p>
+									<p className=" pt-5 text-center  skillsize text-white" key={i}>{a.skill}</p>
 								</div>
 							</div>
 						</div>

@@ -4,6 +4,7 @@ import Landing from "../components/Landing";
 import Skills from "../components/Skills";
 import Nav from "../components/Nav";
 import Projects from "../components/Projects";
+import About from "../components/About";
 
 // import VectorBackground from "../components/VectorBackground";
 import ScrollingColorBackground from "react-scrolling-color-background";
@@ -31,9 +32,13 @@ class Portfolio extends Component {
       <Nav />
       
       <Landing />
-
-
+      <a name="aboutPage" />
+      <About/>
+      
+      <a name="skillsPage" />
+      <div id="firstgradient" />
       <Skills />
+      <a name="portfolioPage" />
       <div id="gradient" />
       <Projects />
       </div >   

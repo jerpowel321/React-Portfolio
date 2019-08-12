@@ -1,6 +1,35 @@
-.landing span, .landing p {
-    font-size: 60px;
-}
+.landing{
+    background-image:url("https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    
+        /* background-image:url("https://images.unsplash.com/photo-1445359179985-460648949e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"); */
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+    margin-top:8vh;
+    
+  }
 .flex-container {
     align-content: center;
+}
+.intro {
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    z-index: -5;
+}
+.name {
+    font-size: 70px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.title {
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
 }

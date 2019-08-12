@@ -12,8 +12,8 @@ function Nav() {
 
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link hvr-grow" href="#aboutPage">About Me</a>
+            <li class="nav-item">
+                <a class="nav-link hvr-grow" href="#aboutPage">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link hvr-grow" href="#skillsPage">Skills</a>

@@ -23,15 +23,6 @@
   color: #61dafb;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 
 .wrap {
 	perspective: 800px;
@@ -119,21 +110,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.landing{
-  background-image:url("/images/clifs.jpg");
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
-}
+
 .project{
   height: 500px;
   width: 325px;
-}
-.landing h1 {
-  font-size: 50px;
-  
 }
 
 #firstgradient {
@@ -151,4 +131,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   border-width: 90px 100vw 0 0;
   border-color: #086788 #DCC7AA transparent transparent;
   transform: scale(1.0001);
+}
+.aboutlink {
+  margin-top: 100vh;
 }

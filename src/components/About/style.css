@@ -1,10 +1,18 @@
 .aboutme {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #DCC7AA;
+    margin-top: 100vh;
   }
+.aboutme img {
+    border: 2px solid black;
+   
+}
 .flex-container {
     align-content: center;
 }
-/* .aboutme p {
-    font-size: 15px;
-} */
+.aboutme #resume{
+    color:white;
+}
+.aboutme #resume:hover{
+    color:#F7882F;
+}

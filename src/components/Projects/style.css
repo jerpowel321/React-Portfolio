@@ -1,117 +1,127 @@
 .portfolioSection {
-    padding-top: 20px;
-    background: #DCC7AA;
+  padding-top: 20px;
+  background: #DCC7AA;
 }
 .project {
-    background-color: white;
-    width: 325px;
-    height: 500px; 
-    margin-bottom: 40px;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0px 1px 7px 1.5px rgba(0,0,0,0.2);
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 350px;
-    overflow: hidden;
+  background-color: white;
+  width: 325px;
+  height: 520px; 
+  margin-bottom: 40px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 1.5px rgba(0,0,0,0.2);
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 350px;
+  overflow: hidden;
+}
+.project .description {
+min-height: 120px;
 }
 .projectBody {
-  width: 100%;
-  display: block;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
+width: 100%;
+display: block;
+height: 460px;
+background-color: #F0F0F0;
+overflow: hidden;
+}
+.projectBody p, .projectBody h1 {
+padding: 2px 2px;
 }
 .projectImg {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  transition: 0.4s ease-in;
-  display: block;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+width: 100%;
+height: 200px;
+overflow: hidden;
+transition: 0.4s ease-in;
+display: block;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
-.project p {
-  padding-top: 0;
-}
+
 
 .scrollbar-night-fade::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: #F5F5F5;
-    border-radius: 10px; }
-    
-    .scrollbar-night-fade::-webkit-scrollbar {
-    width: 12px;
-    background-color: #F5F5F5; }
-    
-    .scrollbar-night-fade::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-image: -webkit-gradient(linear, left bottom, left top, from(#a18cd1), to(#fbc2eb));
-    background-image: -webkit-linear-gradient(bottom, #a18cd1 0%, #fbc2eb 100%);
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); }
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+  
+  .scrollbar-night-fade::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+  
+  .scrollbar-night-fade::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#a18cd1), to(#fbc2eb));
+  background-image: -webkit-linear-gradient(bottom, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); }
 
 
-    /* Float Shadow */
+  /* Float Shadow */
 .hvr-float-shadow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-  .hvr-float-shadow:before {
-    pointer-events: none;
-    position: absolute;
-    z-index: -1;
-    content: '';
-    top: 100%;
-    left: 5%;
-    height: 10px;
-    width: 90%;
-    opacity: 0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-    /* W3C */
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform, opacity;
-    transition-property: transform, opacity;
-  }
-  .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-    /* move the element up by 5px */
-  }
-  .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-    opacity: 1;
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
-  }
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
 
-  *{
-  border: 0;
-  padding: 0;
-  margin: 0;
+*{
+border: 0;
+padding: 0;
+margin: 0;
 }
 
 .img-hover-zoom {
-  height: 200px; 
-  overflow: hidden; 
+height: 200px; 
+overflow: hidden; 
 }
 
 .img-hover-zoom img {
-  transition: transform .7s ease;
+transition: transform .7s ease;
 }
 
 .img-hover-zoom:hover img {
-  transform: scale(1.5);
+transform: scale(1.5);
+}
+.portfolioSection i {
+color: #F7882F
+}
+.portfolioSection i:active {
+  color: #6B7A8F
 }

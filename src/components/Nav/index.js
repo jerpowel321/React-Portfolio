@@ -36,7 +36,7 @@ function Nav() {
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/jerpowel321?tab=repositories" target="_blank"><i className="fab fa-github fa-2x icon hvr-grow"></i></a>
+                <a class="nav-link" href="https://github.com/jerpowel321" target="_blank"><i className="fab fa-github fa-2x icon hvr-grow"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://www.linkedin.com/in/jenniferrpowell/" target="_blank"><i class="fab fa-linkedin fa-2x ml-2 hvr-grow"></i></a>

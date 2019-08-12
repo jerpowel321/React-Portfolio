@@ -22,7 +22,7 @@ function Nav() {
                 <a class="nav-link hvr-grow" href="#portfolioPage">Projects</a>
             </li>
 			<li class="nav-item">
-                <a class="nav-link hvr-grow" href="#portfolioPage">Contact</a>
+                <a class="nav-link hvr-grow" href="mailto:jerpowel321@gmail.com?">Contact</a>
             </li>
            
         </ul>

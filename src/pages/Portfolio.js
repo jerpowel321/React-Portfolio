@@ -4,7 +4,6 @@ import Skills from "../components/Skills";
 import Nav from "../components/Nav";
 import Projects from "../components/Projects";
 import About from "../components/About";
-import ScrollingColorBackground from "react-scrolling-color-background";
 class Portfolio extends Component {
   render() {
     return (
@@ -15,7 +14,6 @@ class Portfolio extends Component {
       <a  name="aboutPage" />
       </div>
       <About/>
-      
       <a name="skillsPage" />
       <div id="firstgradient" />
       <Skills />

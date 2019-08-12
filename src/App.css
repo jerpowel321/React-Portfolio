@@ -1,13 +1,11 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,18 +16,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
-
-
 .wrap {
 	perspective: 800px;
   perspective-origin: 50% 100px;
   margin-top: 400px;
 }
-
 .cube {
 	position: relative;
 	width: 200px;
@@ -40,7 +34,6 @@
 	width: 200px;
 	height: 200px;
 }
-
 .back {
   transform: translateZ(-100px) rotateY(180deg);
 	background-color: rgba(255, 255, 255, 0);
@@ -75,11 +68,9 @@
 	from { transform: rotateY(0); }
 	to { transform: rotateY(360deg); }
 }
-
 .cube {
 	animation: spin 5s infinite linear;
 }
- 
 h1 {
   color: white;
   margin:auto;
@@ -93,7 +84,6 @@ h1 {
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Open Sans', sans-serif;
 }
-
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -110,12 +100,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
 .project{
   height: 500px;
   width: 325px;
 }
-
 #firstgradient {
   width: 0;
   height: 0;

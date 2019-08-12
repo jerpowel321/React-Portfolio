@@ -13,10 +13,10 @@ function Landing() {
 			<div className="container text-center">
 				<div className="intro">
 			<Typist>
-			<Typist.Delay ms={1000} />
+			<Typist.Delay ms={500} />
 				<span className="name "> <b>Jennifer Powell</b> </span>
 				<br />
-				<Typist.Delay ms={1500} />
+				
 				<div className="title">
 					<p> Full Stack Developer </p>
 

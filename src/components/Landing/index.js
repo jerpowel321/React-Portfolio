@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Random } from 'react-animated-text';
-// import { Wave2 } from '../Wave';
 import Typist from 'react-typist';
 import "./style.css";
 
@@ -31,6 +29,4 @@ function Landing() {
 };
 
 
-{/* 			
-	<Wave2></Wave2> */}
 export default Landing;

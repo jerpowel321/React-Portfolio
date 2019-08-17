@@ -26,7 +26,7 @@ class Projects extends React.Component {
 					{projects.map((a, i) =>
 						<div className="project" style={{ border: '5px solid colors[i]' }}>
 							<div className="projectBody" >
-								<div class="img-hover-zoom">
+								<div className="img-hover-zoom">
 									<img className="projectImg" key={i} src={a.Img} />
 								</div>
 								<h3 className="text-center pt-3" key={i}>{a.project}</h3>

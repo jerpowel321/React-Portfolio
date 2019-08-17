@@ -19,3 +19,19 @@
 .aboutme #resume:active{
     color:#6B7A8F;
 }
+@media (min-width: 100px) and (max-width: 575px) {
+    p{
+        font-size: 12px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    img { 
+        height: 300px;
+    }
+    button {
+        margin-left: 10%;
+    }
+    #resume {
+        font-size: 12px;
+    }
+}

@@ -2,9 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-
-
-
 const skills = [
 	{ skill: 'React', icon: 'fab fa-react' },
 	{ skill: 'JavaScript', icon: 'fab fa-js-square' },
@@ -35,7 +32,7 @@ class Skills extends React.Component {
 				<h1 className="text-center pt-5">Technical Skills</h1>
 				<div className="container skillExample ">
 					{skills.map((a, i) =>
-						<div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+						<div className="flip-container" onTouchStart="this.classList.toggle('hover');">
 							<div className="flipper">
 								<div className="front">
 									<div className="box " style={{ border: '5px solid colors[i]' }}>

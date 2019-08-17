@@ -1,5 +1,5 @@
 .navbar {
-    height: 70px;
+    height: 10vh;
 }
 .blue {
     background-color: #086788;
@@ -19,7 +19,6 @@
     background-color:#086788;
     margin-top: 22px;
 }
-
 .project .icon {
     color: #086788;
     border-radius: 20px;
@@ -27,10 +26,33 @@
 .navbar i:hover, .navbar a:hover {
     color: #DCC7AA;
 }
-  
 .navbar i {
   color: #F7882F
 }
 .navbar i:active, .navbar a:active{
     color: #6B7A8F
+}
+.ml {
+    margin-left: 2px;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+    .nav-item{
+        font-size: 12px;
+        background-color: rgba(0, 0, 0, 0.676);
+        padding-left: 10px;
+        width: 30%;
+    }
+    .nt1 {
+        background-color: rgba(0, 0, 0, 0.676);
+    }
+    .initals {
+        margin-top: 0;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        height: 60%;
+    }
 }

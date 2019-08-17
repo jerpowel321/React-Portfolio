@@ -10,10 +10,10 @@ const skills = [
 	{ skill: 'Jquery', img: 'https://js.foundation/wp-content/uploads/sites/33/2017/02/jquery.png' },
 	{ skill: 'Bootstrap', icon: 'fab fa-bootstrap' },
 	{ skill: 'MongoDB', img: 'https://img.icons8.com/color/420/mongodb.png' },
-	{ skill: 'Mongoose', img: 'http://mongodb-tools.com/img/mongoose.png' },
+	{ skill: 'Mongoose', img: '/images/mongoose.png' },
 	{ skill: 'Express', img: 'https://cdn-images-1.medium.com/max/800/1*j8DELPVuI_w8045sxmHQsA.png' },
 	{ skill: 'MySQL', img: 'https://cdn.iconscout.com/icon/free/png-256/mysql-20-1174940.png' },
-	{ skill: 'Sequalize', img: 'http://docs.sequelizejs.com/image/brand_logo.png' },
+	{ skill: 'Sequalize', img: '/images/sequalize.png' },
 	{ skill: 'Node', icon: 'fab fa-node' },
 	{ skill: 'Firebase', img: 'https://img.icons8.com/color/420/firebase.png' },
 	{ skill: 'Handlebars', img: 'https://cdn.iconscout.com/icon/free/png-512/handlebars-1-285290.png' },
@@ -46,9 +46,6 @@ class Skills extends React.Component {
 								</div>
                                     : null
                                   }
-										
-										
-										
 										
 									</div>
 								</div>

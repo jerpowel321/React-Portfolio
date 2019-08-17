@@ -80,9 +80,7 @@
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
-    h1{
-        font-size: 24px;
-    }
+
     p{
         font-size: 12px;
         padding-left: 10%;

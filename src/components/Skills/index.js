@@ -36,10 +36,20 @@ class Skills extends React.Component {
 							<div className="flipper">
 								<div className="front">
 									<div className="box " style={{ border: '5px solid colors[i]' }}>
-										<i style={{ color: colors[i] }} className={a.icon}></i>
-										<div className="img_containter">
-											<img src={a.img} />
-										</div>
+									{a.icon
+                                    ? <i style={{ color: colors[i] }} className={a.icon}></i>
+                                    : null
+                                  }
+										{a.img
+                                    ? <div className="img_containter">
+									<img src={a.img} />
+								</div>
+                                    : null
+                                  }
+										
+										
+										
+										
 									</div>
 								</div>
 								<div className="back" style={{ backgroundColor: colors[i] }}>

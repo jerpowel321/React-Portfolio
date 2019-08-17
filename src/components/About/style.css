@@ -21,12 +21,12 @@
 }
 @media (min-width: 100px) and (max-width: 575px) {
     p{
-        font-size: 12px;
-        padding-left: 10%;
-        padding-right: 10%;
+        font-size: 14px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     img { 
-        height: 300px;
+        height: 350px;
     }
     button {
         margin-left: 10%;

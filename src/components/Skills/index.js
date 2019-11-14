@@ -15,7 +15,7 @@ const skills = [
 	{ skill: 'MySQL', img: 'https://cdn.iconscout.com/icon/free/png-256/mysql-20-1174940.png' },
 	{ skill: 'Sequalize', img: '/images/sequalize.png' },
 	{ skill: 'Node', icon: 'fab fa-node' },
-	{ skill: 'Firebase', img: 'https://www.stickpng.com/assets/images/5847f40ecef1014c0b5e488a.png' },
+	{ skill: 'Firebase', img: 'https://miro.medium.com/max/1024/1*HaAps8GidfAKdee7OrjZ2w.png' },
 	{ skill: 'Handlebars', img: 'https://cdn.iconscout.com/icon/free/png-512/handlebars-1-285290.png' },
 	{ skill: 'JSON', img: '/images/json.png' },
 	{ skill: 'MERN', img: 'https://geeksperhour.com/wp-content/uploads/2019/02/mern-img.png	' },

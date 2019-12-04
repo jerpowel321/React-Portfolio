@@ -42,7 +42,7 @@ function Nav() {
                 <a className="nav-link" href="https://www.linkedin.com/in/jenniferrpowell/" target="_blank"><i className="fab fa-linkedin fa-2x ml hvr-grow nml"></i></a>
             </li>
 			<li className="nav-item">
-                <a className="nav-link" href="https://www.dropbox.com/s/cn61ixbznlm06ko/JenniferPowell_Resume.pdf?dl=0" target="blank"><i className="fas fa-file-pdf fa-2x ml hvr-grow nml"></i></a>
+                <a className="nav-link" href="https://www.dropbox.com/s/fdzcd8h5q217zoz/JenniferPowell_Resume.pdf?dl=0" target="blank"><i className="fas fa-file-pdf fa-2x ml hvr-grow nml"></i></a>
             </li>
 					
         </ul>

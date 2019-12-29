@@ -27,7 +27,7 @@ class About extends React.Component {
                     <p>I'm excited to start my career in tech and learn more about programming! I am a positive and driven person who enjoys working collaboratively and excels in a fast pace environment. I'm looking for opportunities to grow my career where I can apply my skills. </p>
                     <p>Thank you for your time!</p>
                     <p>-Jennifer</p>
-                    <a href="https://www.dropbox.com/s/eygaeubabg188ke/JenniferPowell_Resume.pdf?dl=0" target="blank"><button type="button" id="resume" className="btn blue hvr-grow">Resume <i className="fas fa-arrow-right"></i></button>
+                    <a href="https://www.dropbox.com/s/p4cxz05omtwpikc/JenniferPowell_Resume.pdf?dl=0" target="blank"><button type="button" id="resume" className="btn blue hvr-grow">Resume <i className="fas fa-arrow-right"></i></button>
                     </a>
                 </div>
             </div>

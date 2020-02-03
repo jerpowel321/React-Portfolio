@@ -7,7 +7,7 @@ const skills = [
 	{ skill: 'JavaScript', icon: 'fab fa-js-square' },
 	{ skill: 'HTML', icon: 'fab fa-html5' },
 	{ skill: 'CSS', icon: 'fab fa-css3-alt' },
-	{ skill: 'Jquery', img: 'https://js.foundation/wp-content/uploads/sites/33/2017/02/jquery.png' },
+	{ skill: 'Jquery', img: '/images/jquery2.png' },
 	{ skill: 'Bootstrap', icon: 'fab fa-bootstrap' },
 	{ skill: 'MongoDB', img: 'https://img.icons8.com/color/420/mongodb.png' },
 	{ skill: 'Mongoose', img: '/images/mongoose.png' },
